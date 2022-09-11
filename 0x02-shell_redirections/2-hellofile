@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /direc/file1'>filecontent
+less/etc/passwd file
