@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+while [$x == "Best School"]:
+do
+	echo $x
+done 
