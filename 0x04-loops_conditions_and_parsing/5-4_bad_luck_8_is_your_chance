@@ -4,12 +4,12 @@ while [ "$n" -le 10 ]
 do
 	if [ $n == 4 ]
 	then
-		echo "bad luck"
+		printf "bad luck\n"
 	elif [ $n == 8 ]
 	then
-		echo "good luck"
+		printf "good luck\n"
 	else
-		echo "Best School"
+		printf "Best School\n"
 	fi
 	((n++))
 done
